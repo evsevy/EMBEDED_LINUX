@@ -1,3 +1,4 @@
+![Alt text](https://github.com/evsevy/DPI_OPENWRT_DRIVER/blob/main/arm1.jpg)
 # README для системы управления БЛА самолетного и ракетного типа для: ARM Cortex-A53, ATmega16U2, ARM Cortex™ A8, Atom T5700, Altera Nios II Gen2, MKE15Z256VLH7
 Merkulov E. V. Ⓒ  2022
 Допускается к публикации
