@@ -1,0 +1,14 @@
+# Указываем, что мы собираем модули ядра
+obj-m += imu_driver.o
+obj-m += servo_control.o
+obj-m += throttle_control.o
+
+# Цель по умолчанию - сборка модулей
+all:
+    # Вызываем make с параметрами для сборки с указанием текущего модуля
+    make -C /lib/modules/$(shell uname -r)/build M=$(PWD) modules
+
+# Цель для очистки скомпилированных файлов
+clean:
+    # Очищаем скомпилированные файлы
+    make -C /lib/modules/$(shell uname -r)/build M=$(PWD) clean
